@@ -16,7 +16,7 @@ const server = http.createServer(app);
 /* -------------------- CORS -------------------- */
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://puls-frontend.vercel.app/"],
+    origin: ["http://localhost:5173","https://puls-frontend.vercel.app"],
     credentials: true,
     exposedHeaders: ["Content-Range", "Accept-Ranges"]
   })
